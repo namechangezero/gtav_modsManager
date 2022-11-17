@@ -1,0 +1,15 @@
+{
+  "name": "gta_cheats_explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Namechange#6461",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^21.2.3"
+  }
+}

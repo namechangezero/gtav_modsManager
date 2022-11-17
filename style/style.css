@@ -1,0 +1,57 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #121212;
+    color: #8B86FC;
+    overflow: hidden;
+}
+
+.title{
+    text-align: center;
+    margin: 0px;
+}
+
+#howToUse{
+    cursor: pointer;
+}
+
+.card{
+    background-color: #363636;
+    width: 49%;
+    text-align: center;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.card img{
+    max-width: 90%;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.card button{
+    color: #8B86FC;
+    margin-bottom: 10px;
+    font-size: larger;
+    width: 6rem;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #272727;
+    padding: 5px;
+}
+
+/*animated border*/
+@keyframes rainbow {
+    0% {border-color: hsl(0, 100%, 50%);}
+    100% {border-color: hsl(255, 100%, 50%);}
+  }
+  
+.card{
+    border: 4px solid hsl(0, 100%, 50%);
+    animation: rainbow 2s infinite alternate;
+  }
+
